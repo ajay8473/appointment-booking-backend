@@ -1,18 +1,59 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
+# 🏥 Appointment Booking Backend API
+
+A complete backend system for Doctor Appointment Booking built using **Next.js (App Router) + TypeScript + JWT Authentication**.
+
+---
+
+## 🚀 Features
+
+### 🔐 Authentication
+- User Signup (Patient / Doctor)
+- User Login
+- JWT Token Generation
+- Role-Based Authorization
+
+### 👨‍⚕️ Doctor Management
+- Get All Doctors
+- Search Doctor by Specialization
+- Check Doctor Availability
+- STREAM Scheduling (1 per slot)
+- WAVE Scheduling (3 per slot)
+
+### 📅 Appointment Management
+- Book Appointment (Max 3 family members)
+- Cancel Appointment
+- Reschedule Appointment
+- Prevent Double Booking
+
+### 🏖 Doctor Leave
+- Doctor can apply leave
+- Bulk cancel appointments on leave date
+- Prevent booking on leave date
+
+---
+
+## 🛠 Tech Stack
+
+- Next.js (App Router)
+- TypeScript
+- JWT (jsonwebtoken)
+- bcryptjs
+
+
+---
+
+## 📂 Project Structure
+
+
 
 First, run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
